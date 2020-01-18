@@ -1,3 +1,7 @@
 # History
 
-Describe historical projects and origin story
+LPCUWC-HK established the Coral Monitoring service in 1995 in collaboration with WWF-HK. The purpose was to contribute to existing conservation knowledge by committing to long-term SCUBA surveying of the Hoi Ha Wan Marine Park.
+
+The initial purpose of the service was to collect data on the park’s shoreline substrate in order to identify key coral communities. This project ran until 2006, when the focus shifted to a long term survey of the park using Reefcheck protocols. In 2009, we integrated Coralwatch into our surveys. Our major function has been to collect data for our own long-term report to share with existing marine conservation organizations, however, we are also the only secondary school with a team which collects annual data for the AFCD/Reefcheck. A greater focus on raising marine awareness has been added since 2012; students are selected from around the world and the expectation is that they will continue to contribute to conservation efforts throughout their lifetimes.
+
+The College would like to express its thanks to environmental organizations which have helped support our endeavors with logistical support and/or training. These include, in addition to WWF-HK, the Swire Institute of Marine Science, the HK AFCD, and Tenghoi. LPCUWC-HK has also had resource exchanges with and support from Bunns Divers and Splash. Finally, special thanks to RiseLtd for its many years of boat support.

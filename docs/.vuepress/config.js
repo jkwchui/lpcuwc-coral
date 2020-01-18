@@ -61,7 +61,7 @@ module.exports = {
                     }
                 },
                 nav: [{
-                        text: 'about',
+                        text: 'About',
                         link: '/about/'
                     },
                     {
@@ -84,7 +84,7 @@ module.exports = {
                 sidebarDepth: 1,
                 sidebar: {
                     '/about/': [
-                        ['./', 'about'],
+                        ['./', 'About'],
                         {
                             title: 'What we do',
                             collapsable: false,

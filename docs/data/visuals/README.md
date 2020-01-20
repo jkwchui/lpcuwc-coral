@@ -42,4 +42,36 @@ Macro photography
 
 <a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157687707260322" title="macro photography"><img src="https://live.staticflickr.com/4563/38596052262_8114359f3d_c.jpg" width="800" height="533" alt="macro photography"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+### Human Impacts
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157690948393266" title="human impacts"><img src="https://live.staticflickr.com/4539/37909990114_a667e6ee51_c.jpg" width="800" height="533" alt="human impacts"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Damaged Coral
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157662951654798" title="damaged coral"><img src="https://live.staticflickr.com/4580/26837170199_40c125cd09_c.jpg" width="800" height="533" alt="damaged coral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Drupella
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157690010720615" title="drupella"><img src="https://live.staticflickr.com/4538/24741388468_2d2bda21ab_c.jpg" width="800" height="533" alt="drupella"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Healthy Coral
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157666709606779" title="healthy coral"><img src="https://live.staticflickr.com/4550/38556750826_4d77a3ace0_c.jpg" width="800" height="533" alt="healthy coral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Dead Coral
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157666709604429" title="dead coral"><img src="https://live.staticflickr.com/4562/24741385718_a7b8ebc15c_c.jpg" width="800" height="533" alt="dead coral"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+### Coral Monitoring - Coral Beach
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157689998134425" title="coral monitoring - Coral Beach"><img src="https://live.staticflickr.com/4556/38608322831_3ffab38d5b_c.jpg" width="800" height="533" alt="coral monitoring - Coral Beach"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Coral Monitoring - Site 2
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157666654692349" title="coral monitoring - site 2"><img src="https://live.staticflickr.com/4535/37694567955_1c4b384465_c.jpg" width="800" height="533" alt="coral monitoring - site 2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Coral Monitoring - Site 5
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/160398863@N02/albums/72157689530603434" title="Coral monitoring - site 5"><img src="https://live.staticflickr.com/4524/38525160726_8a6678c0e3_c.jpg" width="800" height="533" alt="Coral monitoring - site 5"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## Videos

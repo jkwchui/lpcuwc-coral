@@ -2,8 +2,10 @@ const moment = require('moment');
 const path = require("path");
 
 module.exports = {
-    title: 'Coral Monitoring LPCUWC-HK',
+    title: '🖐️☝️黃金週',
     description: '',
+    base: '/',
+    theme: 'casper',
     docsDir: 'docs',
     transpileDependencies: [
         'vue-echarts',
@@ -17,280 +19,99 @@ module.exports = {
             }
         ],
     ],
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@alias': '../../../docs/image'
-            }
-        }
-    },
-    locales: {
-        // The key is the path for the locale to be nested under.
-        // As a special case, the default locale can use '/' as its path.
-        '/': {
-            lang: 'en', // this will be set as the lang attribute on <html>
-            title: 'Coral Monitoring LPCUWC-HK',
-            description: ''
-        },
-        // '/zh-S/': {
-        //     lang: 'zh-Hans',
-        //     title: '珊瑚觀察 - 香港聯合世界書院',
-        //     description: ''
-        // },
-        '/zh/': {
-            lang: 'zh-Hant',
-            title: '珊瑚觀察 - 香港聯合世界書院',
-            description: ''
-        },
-    },
     themeConfig: {
-        locales: {
-
-            '/': {
-                // text for the language dropdown
-                selectText: '💬 Languages 語言',
-                // label for this locale in the language dropdown
-                label: 'Eng 🇬🇧🇺🇸🇨🇦🇦🇺',
-                // text for the edit-on-github link
-                // editLinkText: 'Edit this page on GitHub',
-                // config for Service Worker 
-                serviceWorker: {
-                    updatePopup: {
-                        message: "Updates available",
-                        buttonText: "Refresh"
-                    }
-                },
-                nav: [{
-                        text: 'About',
-                        link: '/about/'
-                    },
-                    {
-                        text: 'Data',
-                        link: '/data/'
-                    },
-                    {
-                        text: 'Apply',
-                        link: '/apply/'
-                    },
-                    // {
-                    //     text: 'Organizations',
-                    //     link: '/org/'
-                    // },
-                    {
-                        text: 'Resources',
-                        link: '/resources/'
-                    },
-                ],
-                sidebarDepth: 1,
-                sidebar: {
-                    '/about/': [
-                        ['./', 'About'],
-                        {
-                            title: 'What we do',
-                            collapsable: false,
-                            children: [
-                                ['./protocols/', "Protocols"],
-                                ['./training/', 'Training'],
-                                ['./funding/', 'Funding'],
-                                ['./team/', 'The Team'],
-                                ['./history/', 'History'],
-                            ],
-                        },
-                    ],
-                    '/data/': [{
-                            title: '',
-                            collapsable: false,
-                            children: [
-                                ['./', 'Description'],
-                                ['./visuals/', 'Visual']
-                                ['./stat/', 'Statistical'],
-                            ],
-                        },
-                        {
-                            title: 'Past Reports',
-                            collapsable: false,
-                            children: [
-                                ['./reports/2008/', '2008'],
-                                // ['./obs/gear/', 'Gear'],
-                                ['./reports/2014-17/', '2014-17']
-                            ],
-                        },
-                    ],
-                    '/apply/': [{
-                        title: 'How to Apply',
-                        collapsable: true,
-                    }],
-                    '/resources/': [{
-                        title: 'Resources',
-                        collapsable: true,
-                        children: [
-                            ['./', 'Resources'],
-                            ['./downloads/', 'Downloads'],
-                            ['./tutorials/', 'Tutorials'],
-                            ['./partners/', 'Partners'],
-                        ],
-                    }],
-                },
+        logo: '/logo.png',
+        nav: [
+            {
+                text: '簡介 Introduction',
+                link: '/posts/intro'
             },
-
-            '/': {
-                // text for the language dropdown
-                selectText: '💬 Languages 語言',
-                // label for this locale in the language dropdown
-                label: 'Eng 🇬🇧🇺🇸🇨🇦🇦🇺',
-                // text for the edit-on-github link
-                // editLinkText: 'Edit this page on GitHub',
-                // config for Service Worker 
-                serviceWorker: {
-                    updatePopup: {
-                        message: "Updates available",
-                        buttonText: "Refresh"
-                    }
-                },
-                nav: [{
-                        text: 'about',
-                        link: '/about/'
-                    },
-                    {
-                        text: 'Data',
-                        link: '/data/'
-                    },
-                    {
-                        text: 'Apply',
-                        link: '/apply/'
-                    },
-                    // {
-                    //     text: 'Organizations',
-                    //     link: '/org/'
-                    // },
-                    {
-                        text: 'Resources',
-                        link: '/resources/'
-                    },
-                ],
-                sidebarDepth: 1,
-                sidebar: {
-                    '/about/': [
-                        ['./', 'about'],
-                        {
-                            title: 'What we do',
-                            collapsable: false,
-                            children: [
-                                ['./protocols/', "Protocols"],
-                                ['./training/', 'Training'],
-                                ['./funding/', 'Funding'],
-                                ['./team/', 'The Team'],
-                                ['./history/', 'History'],
-                            ],
-                        },
-                    ],
-                    '/data/': [{
-                        title: 'Data Description',
-                        collapsable: false,
-                        children: [
-                            ['./', 'Description'],
-                            ['./visuals/', 'Visual'],
-                            ['./stat/', 'Statistical'],
-                            ['./reports/', 'Past Reports'],
-                        ],
-                    }],
-                    '/apply/': [{
-                        title: 'How to Apply',
-                        collapsable: false,
-                    }],
-                    '/resources/': [{
-                        title: 'Resources',
-                        collapsable: true,
-                        children: [
-                            ['./', 'Resources'],
-                            ['./downloads/', 'Downloads'],
-                            ['./tutorials/', 'Tutorials'],
-                            ['./partners/', 'Partners'],
-                        ],
-                    }],
-                },
+            {
+                text: '地圖 Map',
+                link: '/posts/map'
             },
-
-            '/zh/': {
-                // text for the language dropdown
-                selectText: '💬 Languages 語言',
-                // label for this locale in the language dropdown
-                label: '繁體中文 🇭🇰🇹🇼',
-                // text for the edit-on-github link
-                // editLinkText: 'Edit this page on GitHub',
-                // config for Service Worker 
-                serviceWorker: {
-                    updatePopup: {
-                        message: "Updates available",
-                        buttonText: "Refresh"
-                    }
-                },
-                nav: [{
-                        text: 'about',
-                        link: '/zh/about/'
-                    },
-                    {
-                        text: 'Data',
-                        link: '/zh/data/'
-                    },
-                    {
-                        text: 'Apply',
-                        link: '/zh/apply/'
-                    },
-                    // {
-                    //     text: 'Organizations',
-                    //     link: '/org/'
-                    // },
-                    {
-                        text: 'Resources',
-                        link: '/zh/resources/'
-                    },
-                ],
-                sidebarDepth: 1,
-                sidebar: {
-                    '/zh/about/': [
-                        ['./', 'about'],
-                        {
-                            title: 'What we do',
-                            collapsable: false,
-                            children: [
-                                ['./protocols/', "Protocols"],
-                                ['./training/', 'Training'],
-                                ['./funding/', 'Funding'],
-                                ['./team/', 'The Team'],
-                                ['./history/', 'History'],
-                            ],
-                        },
-                    ],
-                    '/zh/data/': [{
-                        title: 'Data Description',
-                        collapsable: false,
-                        children: [
-                            ['./', 'Description'],
-                            ['./visuals/', 'Visual'],
-                            ['./stat/', 'Statistical'],
-                            ['./reports/', 'Past Reports'],
-                        ],
-                    }],
-                    '/zh/apply/': [{
-                        title: 'How to Apply',
-                        collapsable: true,
-                    }],
-                    '/zh/resources/': [{
-                        title: 'Resources',
-                        collapsable: true,
-                        children: [
-                            ['./', 'Resources'],
-                            ['./downloads/', 'Downloads'],
-                            ['./tutorials/', 'Tutorials'],
-                            ['./partners/', 'Partners'],
-                        ],
-                    }],
-                },
+            {
+                text: '網上商店 Online shops',
+                link: '/posts/online'
             },
-        },
-        // repo: 'jkwchui/chem-jon-hk',
+            {
+                text: '店主 Owners',
+                link: '/posts/shop-owners'
+            },
+        ],
+        // sidebarDepth: 1,
+        // sidebar: {
+        //     '/about/': [
+        //         ['./', 'About'],
+        //         {
+        //             title: 'What we do',
+        //             collapsable: false,
+        //             children: [
+        //                 ['./protocols/', "Protocols"],
+        //                 ['./training/', 'Training'],
+        //                 ['./funding/', 'Funding'],
+        //                 ['./team/', 'The Team'],
+        //                 ['./history/', 'History'],
+        //             ],
+        //         },
+        //     ],
+        //     '/data/': [{
+        //             title: '',
+        //             collapsable: false,
+        //             children: [
+        //                 ['./', 'Description'],
+        //                 ['./visuals/', 'Visual']
+        //                 ['./stat/', 'Statistical'],
+        //             ],
+        //         },
+        //         {
+        //             title: 'Past Reports',
+        //             collapsable: false,
+        //             children: [
+        //                 ['./reports/2008/', '2008'],
+        //                 // ['./obs/gear/', 'Gear'],
+        //                 ['./reports/2014-17/', '2014-17']
+        //             ],
+        //         },
+        //     ],
+        //     '/apply/': [{
+        //         title: 'How to Apply',
+        //         collapsable: true,
+        //     }],
+        //     '/resources/': [{
+        //         title: 'Resources',
+        //         collapsable: true,
+        //         children: [
+        //             ['./', 'Resources'],
+        //             ['./downloads/', 'Downloads'],
+        //             ['./tutorials/', 'Tutorials'],
+        //             ['./partners/', 'Partners'],
+        //         ],
+        //     }],
+        // },
+        // repo: 'jkwchui/51goldenweek',
         displayAllHeaders: true,
+        footer: [{
+            text: 'Latest Posts',
+            link: '/posts'
+          }, 
+          {
+            text: 'Telegram',
+            link: 'https://t.me/HKGoldenWeek'
+          }, 
+          {
+            text: 'Facebook',
+            link: 'https://www.facebook.com/FiveDemandsWeek/'
+          },
+          {
+            text: 'Instagram',
+            link: 'https://instagram.com/fivedemandsweek'
+          },  
+          ],
+          social: {
+            facebook: 'https://www.facebook.com/FiveDemandsWeek/',
+            instagram: 'https://instagram.com/fivedemandsweek',
+          }
     },
     plugins: [
         [
@@ -318,17 +139,8 @@ module.exports = {
         //     }
         // ],
         '@vuepress/active-header-links',
-        // '@vuepress/medium-zoom',
+        '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
-        {
-            '@vuepress/pwa': {
-                serviceWorker: true,
-                updatePopup: {
-                    message: "有可更新項目",
-                    buttonText: "更新頁面"
-                }
-            }
-        },
         [
             '@vuepress/google-analytics',
             {

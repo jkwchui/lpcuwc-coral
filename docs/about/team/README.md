@@ -1,3 +1,0 @@
-# Team
-
-Current + past participants

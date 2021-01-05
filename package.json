@@ -35,7 +35,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/vue-fontawesome": "^0.1.4",
     "airtable": "^0.8.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "echarts": "^4.1.0",
     "element-ui": "2.7.0",
     "markdown-it-abbr": "^1.0.4",
